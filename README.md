@@ -14,7 +14,7 @@ COPY . .
 CMD ["python3", "sert4.py"]
 ```
 
-2) sert.py
+2) sert4.py
 ```
 import pandas as pd
 
@@ -58,7 +58,7 @@ Steve,32,93000
 Tom,41,113000
 ```
 
-Отлично, теперь  "docker build -t hek1412/sert4:v1 ." и соответственно запускаем " docker run hek1412/sert4:v1"
+Отлично, теперь  `docker build -t hek1412/sert4:v1 .` и соответственно запускаем ` docker run hek1412/sert4:v1`
 
 Наблюдаем, желаемый результат)))
 ![Результат.](1.png)
